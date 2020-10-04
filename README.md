@@ -1,4 +1,12 @@
 # firebase-remote-config
+
+Help you to get idea how to config your Android App Remotely and change your App look and feel without updating your App.
+For this i using Firebase Remote Config.
+
+
+
+
+
 Add the below dependency for the Remote config Android library into your app-level module app/build.gradle
 //Add this line
 apply plugin: 'com.google.gms.google-services'
