@@ -45,5 +45,31 @@ firebaseRemoteInstance.fetch(0)
         if (task.isSuccessful) {
             firebaseRemoteInstance.fetchAndActivate()
         }
-       
-    }
+        }
+        
+Get Paramter value we can use below code:
+
+firebaseRemoteInstance.get("parameter_name")
+
+firebaseRemoteInstance.getString("parameter_name")
+
+firebaseRemoteInstance.getBoolean("parameter_name")
+
+firebaseRemoteInstance.getString("parameter_name")
+
+firebaseRemoteInstance.getDouble("parameter_name")
+
+firebaseRemoteInstance.getLong("parameter_name")
+
+
+where "parameter_name" is name of your "Parameter key" which will return value associate to it.
+
+Example:
+
+firebaseRemoteInstance.getString("message") 
+
+where "message" is my parameter name which I have created on Firebase Remote Config, It we give values as a String.
+
+
+
+
