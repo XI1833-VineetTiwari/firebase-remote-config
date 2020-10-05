@@ -68,7 +68,7 @@ Example:
 
 firebaseRemoteInstance.getString("message") 
 
-where "message" is my parameter name which I have created on Firebase Remote Config, It we give values as a String.
+where "message" is my parameter name which I have created on Firebase Remote Config, It will give values as a String.
 
 
 
